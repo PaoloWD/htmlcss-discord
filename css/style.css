@@ -1,0 +1,145 @@
+:root{
+    --color-white: white;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 920px;
+    margin: auto;
+    
+}
+
+footer{
+    background-color: black;
+}
+
+header{
+    background-color: rgb(61,96,216);
+    padding: 1rem;
+}
+
+a{
+    color: var(--color-white);
+    text-decoration: none;
+    padding: 1rem;
+}
+
+section{
+    padding: 2rem 0;
+}
+
+footer .container .menu >div{
+    background-color: pink;
+    padding: 1rem;
+}
+
+footer section .row .col-2{
+    flex-grow: 2;
+    padding: 10rem 0;
+}
+
+footer section .row .col{
+    flex-grow: 1;
+    padding: 10rem 0;
+}
+
+footer .container .menu{
+    background-color: aquamarine;
+    padding: 2rem 0;
+}
+
+footer .container{
+    padding: 1rem 0;
+}
+
+footer section{
+    padding: 0;
+}
+
+
+main .blue .container{
+    padding: 0 5rem;
+}
+
+h1{
+    padding-bottom: 3rem;
+    font-size: 3rem;
+}
+
+.green{
+    background-color: green;
+    padding: 10rem;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+p{
+    padding-bottom: 1rem;
+}
+
+.btn{
+    padding: .5rem 1.5rem;
+    border: none;
+    border-radius: 20px;
+}
+
+.btn-small{
+    font-size: small;
+    padding: .5rem .7rem;
+}
+
+.btn-white{
+    background-color: white;
+    color: black;
+}
+
+.btn-black{
+    background-color: rgb(36,39,42);
+    color: var(--color-white);
+}
+
+.bg-title{
+    background-image: url(../imgs/jumbo.png);
+    background-size: cover;
+}
+
+.title{
+    color: var(--color-white);
+    text-align: center;
+    padding: 2rem 10rem;
+}
+
+
+.row{
+    display: flex;
+}
+
+.col{
+    padding: 3rem;
+    background-color: aqua;
+    flex-grow: 2;
+}
+
+.col-2{
+    padding: 3rem;
+    background-color: pink;
+    flex-grow: 1;
+}
+
+.gray{
+    background-color: lightgray;
+}
+
+.nav-footer{
+    display: flex;
+    color: var(--color-white);
+}
