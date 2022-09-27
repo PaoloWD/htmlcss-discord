@@ -3,6 +3,7 @@
     --color-lightgray: lightgray;
     --color-special-black: rgb(36,39,42);
     --color-violet: rgb(146,160,220);	
+    --color-blue:rgb(44, 89, 238);	
 }
 
 *{
@@ -25,7 +26,7 @@ footer{
 }
 
 header{
-    background-color: rgb(61,96,216);
+    background-color: var(--color-blue);
     padding: 1rem;
 }
 
@@ -47,38 +48,18 @@ main section .container .row .col:nth-child(even){
     padding-left: 7rem;
 }
 
-footer .container .menu >div{
-    background-color: pink;
-    padding: 1rem;
-}
-
-footer section .row .col-2{
-    flex-basis: 0;
-}
-
-footer section .row .col{
-    flex-grow: 1;
-}
-
-footer .container .menu{
-    background-color: aquamarine;
-    padding: 2rem 0;
-}
-
 footer .container{
     padding: 1rem 0;
-}
-footer section .row >div:first-child{
     color: var(--color-white);
-}
-
-main .blue .container{
-    padding: 0 5rem;
 }
 
 h1{
     padding-bottom: 3rem;
     font-size: 3rem;
+}
+
+h5, h4{
+    color: var(--color-violet);
 }
 
 h2, h3, h4{
@@ -91,6 +72,10 @@ h2{
 
 h4{
     font-size: 1.5rem;
+}
+
+hr{
+    border-color: var(--color-violet);
 }
 
 .menu{
@@ -107,10 +92,22 @@ main section .container .row .col >img{
     width: 35rem;
 }
 
-footer section .container .row .col-2 img{
+footer  .container .row .col img{
     width: 1.5rem;
-    vertical-align: middle;
+    vertical-align: top;
     padding-right: .1rem;
+    padding-bottom: 1rem;
+}
+
+footer  .container .row{
+    gap: 1rem 3rem;
+    align-items: baseline;
+    padding-bottom: 2rem;
+}
+
+footer  .container .row .col-2>a{
+    display: block;
+    padding: 0.5rem 0;
 }
 
 .btn{
