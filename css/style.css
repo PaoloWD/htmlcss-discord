@@ -89,7 +89,7 @@ p{
 }
 
 main section .container .row .col >img{
-    width: 35rem;
+    width: 100%;
 }
 
 footer  .container .row .col img{
@@ -157,10 +157,12 @@ footer  .container .row .col-2>a{
 
 .col{
     flex-grow: 2;
+    flex-basis: 70%;
 }
 
 .col-2{
     flex-grow: 1;
+    flex-basis: 30%;
 }
 
 .bg-gray{
